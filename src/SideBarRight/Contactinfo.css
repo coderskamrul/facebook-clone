@@ -1,0 +1,21 @@
+.Contacts-name{
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+}
+.Contacts-name > h4{
+ margin-left: 8px;
+ color: gray;
+}
+.Contacts-name .MuiAvatar-root {
+    color: #fafafa;
+    background-color: gray;
+    width: 33px;
+    height: 33px;
+}
+
+.Contacts-name:hover{
+    background-color: #ECEDF0;
+    cursor: pointer;
+    border-radius: 10px;
+}

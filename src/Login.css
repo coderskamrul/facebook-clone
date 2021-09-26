@@ -1,0 +1,372 @@
+.f__page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #f0f2f5;
+}
+
+.f__pageBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.f__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.f__logo {
+  background-position: center;
+  background-size: center;
+  background-repeat: no-repeat;
+  width: 60vw;
+}
+
+.f__subHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 24px;
+  padding: 0;
+  text-align: center;
+}
+
+.f__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.f__loginForm {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-shadow: 0 0 5px 0px #9a949c;
+  box-shadow: 0 0 5px 0px #9a949c;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.f__loginFormUsername {
+  padding: 10px;
+  margin: 0;
+  width: 90%;
+  outline: 0;
+  border: 0;
+  font-size: 1.1em;
+}
+
+.f__loginFormInputGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 90%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid rgba(85, 85, 85, 0.2);
+  margin: 10px 0;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.f__loginFormPassword {
+  padding: 10px;
+  margin: 0;
+  width: 90%;
+  outline: 0;
+  border: 0;
+  font-size: 1.1em;
+}
+
+.f__loginFormShowPasswordToggleBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: transparent;
+  outline: 0;
+  border: 0;
+  opacity: 0;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.f__eyeIcon {
+  width: 15px;
+  height: 15px;
+  background-image: url("");
+  background-size: contain;
+  background-position: center;
+}
+
+.f__loginFormLogInButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #3677f2;
+  color: #ffffff;
+  padding: 0 16px;
+  line-height: 42px;
+  font-size: 1.3em;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  width: 90%;
+  cursor: pointer;
+}
+
+.f__loginFormLink {
+  text-decoration: none;
+  color: #3677f2;
+  margin: 10px 0;
+}
+
+.f__divider {
+  height: 1px;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.f__signUpButton {
+  background-color: #42b72a;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 16px;
+  line-height: 42px;
+  white-space: nowrap;
+  font-size: 1.1em;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+}
+
+.f__createPageLinkContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 20px;
+  font-size: 0.89em;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.f__createPageLink {
+  color: black;
+  font-weight: 700;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.f__footer {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.f__footerList {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 0.7em;
+  padding: 0;
+  margin: 0;
+}
+
+.f__footerListItem {
+  margin: 0 5px;
+}
+
+.f__footerListItemLink {
+  text-decoration: none;
+  color: #9a949c;
+}
+
+.f__footerListItemBtn {
+  outline: 0;
+  border: 0;
+}
+
+.f__icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.f__playIcon {
+  background-image: url("");
+  background-size: 170px 96px;
+  background-position: -40px -80px;
+  width: 12px;
+  height: 12px;
+}
+
+.f__copyrights {
+  font-size: 0.7em;
+  margin: 20px 5px;
+  color: #9a949c;
+}
+
+@media (min-width: 800px) {
+  .f__page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .f__pageBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    height: 100vh;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 10vw;
+  }
+  .f__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    width: 500px;
+  }
+  .f__logo {
+    width: 300px;
+    margin-left: -30px;
+  }
+  .f__body {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 396px;
+    height: 456px;
+  }
+  .f__subHeader {
+    text-align: start;
+  }
+  .f__loginForm {
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+  }
+  .f__footer {
+    width: 100vw;
+  }
+}

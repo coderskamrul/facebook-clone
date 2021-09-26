@@ -1,0 +1,23 @@
+.hmd{
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+.card{
+    background-color: #ffc107;
+    width: 20%;
+    height: 10%;
+    text-align: center;
+    padding: 7px;
+    margin: 8px;
+    border: 1px solid;
+    display: inline-block;
+}
+.ct{
+    color: white;
+}
+.main{
+    width: 100%;
+}

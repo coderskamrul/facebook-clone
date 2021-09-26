@@ -1,0 +1,71 @@
+.hader_left > img{
+    width: 60px;
+    height: 40px;
+}
+.hader{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 5px 7px -9px rgb(0,0,0,0.7);
+    position: sticky;
+    top: 0px;
+    padding: 10px 15px;
+    z-index: 100;
+    height: 45px;
+}
+
+.hader_left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hader_input{
+    background: #eff2f5;
+    display: flex;
+    align-items: center;
+    height: 27px;
+    padding: 10px;
+    border-radius: 999px;
+}
+.hader_input >input{
+    background: transparent;
+    border: none;
+    outline-width: 0px;
+}
+.hader_center{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.option > .MuiSvgIcon-root{
+color: gray;
+}
+.option :hover{
+    color: rgb(33, 53, 235);
+}
+.option{
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    cursor: pointer;
+}
+.profile_info{
+    display: flex;
+    align-items: center;
+}
+.profile_info > h4{
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.hader_right{
+    display: flex;
+    align-items: center;
+}
+.MuiIconButton-root{
+    height: 40px;
+}
+
+.option .active{
+    border-bottom: 2px solid #0e17eb;
+}

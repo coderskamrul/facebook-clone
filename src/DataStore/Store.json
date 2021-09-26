@@ -1,0 +1,27 @@
+[
+    {
+        "cardTitle": "i am java",
+        "cardBody": "I am load data from Json file"
+
+    },
+    {
+        "cardTitle": "I am css",
+        "cardBody": "I am load data from Json file"
+
+    },
+    {
+        "cardTitle": "I am jsx",
+        "cardBody": "I am load data from Json file"
+
+    },
+    {
+        "cardTitle": "I am Node",
+        "cardBody": "I am load data from Json file"
+
+    },
+    {
+        "cardTitle": "I am Script",
+        "cardBody": "I am load data from Json file"
+
+    }
+]
